@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.93759058.chunk.css",
+    "main.js": "/static/js/main.3004f76f.chunk.js",
+    "main.js.map": "/static/js/main.3004f76f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.99ab8d36.js",
+    "runtime-main.js.map": "/static/js/runtime-main.99ab8d36.js.map",
+    "static/js/2.4b1fa07a.chunk.js": "/static/js/2.4b1fa07a.chunk.js",
+    "static/js/2.4b1fa07a.chunk.js.map": "/static/js/2.4b1fa07a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.93759058.chunk.css.map": "/static/css/main.93759058.chunk.css.map",
+    "static/js/2.4b1fa07a.chunk.js.LICENSE.txt": "/static/js/2.4b1fa07a.chunk.js.LICENSE.txt",
+    "static/media/GOPR0509.e32f3093.JPG": "/static/media/GOPR0509.e32f3093.JPG",
+    "static/media/GeorgeOlive2020.5b1dd86d.jpg": "/static/media/GeorgeOlive2020.5b1dd86d.jpg",
+    "static/media/IMG_0012.ce757050.JPG": "/static/media/IMG_0012.ce757050.JPG",
+    "static/media/IMG_0302.e492ba15.JPG": "/static/media/IMG_0302.e492ba15.JPG",
+    "static/media/KurtzweilCV2021.c0267513.pdf": "/static/media/KurtzweilCV2021.c0267513.pdf",
+    "static/media/george-kurtzweil.b31e43ae.jpg": "/static/media/george-kurtzweil.b31e43ae.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99ab8d36.js",
+    "static/js/2.4b1fa07a.chunk.js",
+    "static/css/main.93759058.chunk.css",
+    "static/js/main.3004f76f.chunk.js"
+  ]
+}
