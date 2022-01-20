@@ -1,0 +1,29 @@
+.accomplishments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2C4E65;
+  color: white;
+  padding: 20px;
+}
+
+.accomplishments-header {
+  color: white;
+}
+
+.accomplishments-list li {
+  padding: 0px 15px;
+  font-weight: 400;
+  font-size: 20px;
+}
+/*# sourceMappingURL=Accomplishments.css.map */

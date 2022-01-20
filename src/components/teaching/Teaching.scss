@@ -1,0 +1,71 @@
+
+.teaching {
+     background-color: #f9f5f5;
+     padding: 30px 80px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.teaching-date {
+    font-weight: 600;
+}
+
+.teaching-title {
+    font-weight: bold;
+    color: #375F7E;
+    font-size: 30px;
+}
+
+.teaching-institution {
+    color: #A74600;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.teaching-entry {
+    margin-top: 50px ;
+}
+
+.teaching-entry div{
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.teaching-entry-list {
+    display: grid;
+   
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.cv-button {
+    padding: 20px 10px;
+    margin-top: 40px;
+    background-color: #A74600;
+    width: 200px;
+    text-align: center  ;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+
+    &:hover {
+        background-color: #222;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .teaching {
+        text-align: center;
+   }
+
+   .teaching-entry-list {
+       text-align: left;
+       display: grid;
+       justify-items: center;
+       grid-template-columns: repeat(3, 1fr);
+       padding-left: 90px;
+   }
+
+}

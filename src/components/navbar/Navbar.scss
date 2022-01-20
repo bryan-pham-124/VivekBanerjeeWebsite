@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,500&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif
+}
+
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 17px;
+    background-color: #2C4E65;
+    ul {
+       
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin-left: -10px;
+        li {
+            padding: 0px 10px ;
+            
+        }
+
+        li .link{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            transition: .2s;
+             
+            &:hover {
+                margin-bottom: 10px;
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+} // navbar end
+
+@media only screen and (min-width: 600px) {
+    .navbar ul li {
+        padding: 0px 30px;
+    }
+
+    .navbar ul li .link{
+        font-size: 23px;
+    }
+
+}

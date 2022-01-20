@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,gBAAgB,CAAC;EACb,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,uBAAuB,CAAC;EACpB,KAAK,EAAE,KAAK;CACf;;AACD,AAEI,qBAFiB,CAEjB,EAAE,CAAC;EACC,OAAO,EAAC,QAAQ;EAChB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "Accomplishments.scss"
+    ],
+    "names": [],
+    "file": "Accomplishments.css"
+}

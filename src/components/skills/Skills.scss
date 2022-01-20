@@ -1,0 +1,46 @@
+ 
+
+.skills {
+     
+    margin-top: -20px;
+    padding: 60px;
+    padding-top: 10px;
+}
+h1 {
+    color: #2C4E65;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+ul {
+    margin-left: -20px;
+
+    li {
+        margin-bottom: 20px;
+        line-height: 1.5 ;
+    }
+}
+
+.skills ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #78A8C8; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+  
+
+@media only screen and (min-width: 900px) {
+    .skills {
+
+        padding: 40px 150px;
+    }
+
+     ul {
+        margin-left: 0px;
+     }
+
+}

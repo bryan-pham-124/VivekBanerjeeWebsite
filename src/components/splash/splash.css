@@ -1,0 +1,85 @@
+.splash {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.splash-text {
+  color: #2C4E65;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 40px;
+  height: 350px;
+}
+
+.splash-text h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.splash-text p {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.cv-button-splash {
+  padding: 20px 80px;
+  margin-top: 40px;
+  background-color: #A74600;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.cv-button-splash:hover {
+  background-color: #222;
+}
+
+.splash-img {
+  background-color: #78A8C8;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.splash-img img {
+  height: 80%;
+}
+
+@media only screen and (min-width: 800px) {
+  .splash {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .splash-text {
+    height: 560px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .splash-text h1 {
+    font-size: 80px;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=splash.css.map */

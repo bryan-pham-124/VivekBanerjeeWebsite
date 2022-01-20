@@ -1,0 +1,40 @@
+.contact {
+  line-height: 2;
+  padding-bottom: 30px;
+}
+
+.office, .email, .phone {
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.office span, .email span, .phone span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .office, .email, .phone {
+    padding-left: 190px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+  }
+  .office, .email, .phone {
+    padding-left: 0px;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

@@ -1,0 +1,74 @@
+.education {
+  padding: 30px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.education-degree {
+  color: #A74600;
+}
+
+.education-header {
+  color: #2C4E65;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.education-date {
+  font-weight: 600;
+}
+
+.education-highlight {
+  line-height: 2;
+}
+
+.education-highlight span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.education-institution {
+  color: #375F7E;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.education-entry {
+  margin-top: 50px;
+}
+
+.education-entry div {
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.education-entry-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+@media only screen and (min-width: 1000px) {
+  .education {
+    text-align: center;
+  }
+  .education-entry-list {
+    text-align: left;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    padding-left: 90px;
+  }
+}
+/*# sourceMappingURL=Education.css.map */

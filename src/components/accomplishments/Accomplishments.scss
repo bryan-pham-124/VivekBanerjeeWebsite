@@ -1,0 +1,24 @@
+
+.accomplishments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C4E65;
+    color: white;
+    padding: 20px;
+}
+
+.accomplishments-header {
+    color: white;
+}
+.accomplishments-list {
+   
+    li {
+        padding:0px 15px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+ 

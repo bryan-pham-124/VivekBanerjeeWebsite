@@ -1,0 +1,78 @@
+.teaching {
+  background-color: #f9f5f5;
+  padding: 30px 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teaching-date {
+  font-weight: 600;
+}
+
+.teaching-title {
+  font-weight: bold;
+  color: #375F7E;
+  font-size: 30px;
+}
+
+.teaching-institution {
+  color: #A74600;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.teaching-entry {
+  margin-top: 50px;
+}
+
+.teaching-entry div {
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+
+.teaching-entry-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+.cv-button {
+  padding: 20px 10px;
+  margin-top: 40px;
+  background-color: #A74600;
+  width: 200px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.cv-button:hover {
+  background-color: #222;
+}
+
+@media only screen and (min-width: 1000px) {
+  .teaching {
+    text-align: center;
+  }
+  .teaching-entry-list {
+    text-align: left;
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    padding-left: 90px;
+  }
+}
+/*# sourceMappingURL=Teaching.css.map */
